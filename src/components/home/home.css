@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lilita+One&display=swap');
+
+
+.home {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #71cbff, #3792f6);
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.headertext {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.pos {
+    position: relative;
+    bottom: -50px;
+}
+
+
+.home-btn1 {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.33) 0px 6px 6px;
+    border-radius: 35px;
+    height: 48px;
+    border: none;
+    width: 200px;
+    color: #06b3f8;
+}
+
+.home-btn2 {
+
+    border-radius: 35px;
+    height: 48px;
+    border: 1px solid #fff;
+    width: 200px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.33) 0px 6px 6px;
+    color: white;
+}
+
+.hover:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.53) 0px 6px 6px;
+    cursor: pointer;
+}
+
+
+
+.hover:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.53) 0px 6px 6px;
+    cursor: pointer;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    z-index: 999;
+    position: relative;
+    bottom: -55px;
+}
+
+.home-tittle {
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Berkshire Swash', cursive;
+    margin: 30px 0 0 0;
+
+
+}
+
+
+
+@media (max-width:768px) {
+    .buttons {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .home {
+        justify-content: center;
+    }
+
+    .home-tittle {
+        font-size: 65px;
+        position: relative;
+        left: 33px;
+    }
+
+    .home h4 {
+        position: relative;
+        top: -40px;
+    }
+
+    .home img {
+        height: 380px;
+        width: 380px;
+    }
+
+    .home-btn1 {
+
+        height: 45px;
+        width: 180px;
+        margin: 10px;
+
+    }
+
+    .home-btn2 {
+
+        height: 45px;
+        width: 220px;
+        margin: 10px;
+    }
+
+
+}

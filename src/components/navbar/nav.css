@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.menu-btn {
+    position: fixed;
+    width: 25px;
+    height: 20px;
+    left: 20px;
+    top: 15px;
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    color: white;
+}
+
+#icons {
+    height: 45px;
+    width: 45px;
+    color: rgb(10, 10, 10);
+}
+
+#icon2 {
+    height: 45px;
+    width: 45px;
+    color: rgb(10, 10, 10);
+}
+
+.links {
+    color: #e1f3fd;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+
+
+.menu {
+    background-image: linear-gradient(to right, #71cbff, #3792f6);
+    height: 95.2vh;
+    margin: 0;
+    padding-top: 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.projectact {
+    font-weight: 400;
+    color: #71cbff;
+}
+
+.contactact {
+    font-weight: 400;
+    color: #71cbff;
+}
+
+.active {
+    font-size: 25px;
+    color: #fbfbfc;
+
+}

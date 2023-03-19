@@ -1,0 +1,26 @@
+.home-button-box {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    z-index: 9999;
+}
+
+#home-button {
+    color: rgb(7, 7, 7);
+    font-size: 45px;
+
+}
+
+.home-button-box:hover {
+    cursor: pointer;
+}

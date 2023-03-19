@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../images/svg1.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headertexts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.contact-tittle {
+    font-family: 'Staatliches', cursive;
+    font-weight: 10;
+    font-size: 40px;
+    color: rgb(102, 181, 250);
+    margin: 30px 0 0 0;
+}
+
+
+.contact h3 {
+    position: relative;
+    top: -30px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.input1 {
+    margin: 20px;
+
+}
+
+#outlined-basic {
+    width: 500px;
+    outline: #3792f6;
+    border: #f4f7fa;
+}
+
+#outlined-multiline-static {
+    width: 500px;
+}
+
+#submit {
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: white;
+    color: #3792f6;
+    ;
+    border-radius: 20px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 135px;
+
+}
+
+.contact li {
+    list-style: none;
+}
+
+#social {
+    margin: 10px;
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.socials:hover>:not(:hover) {
+
+    opacity: 40%;
+
+}
+
+@media (max-width:763px) {
+
+    .contact {
+
+        height: 100vh;
+        overflow: hidden;
+
+    }
+
+    #outlined-basic {
+        width: 300px;
+    }
+
+    #outlined-multiline-static {
+        width: 300px;
+    }
+
+    .contact h3 {
+        font-size: 13px;
+    }
+
+    #social {
+        margin: 15px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .socials {
+        position: relative;
+        bottom: -50px;
+    }
+
+}
